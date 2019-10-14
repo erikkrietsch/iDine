@@ -206,6 +206,7 @@
 				F013CBB323576F7B0073B472 /* menu.json in Resources */,
 				F013CB882350FDA20073B472 /* LaunchScreen.storyboard in Resources */,
 				F013CB852350FDA20073B472 /* Preview Assets.xcassets in Resources */,
+				F013CBAB2350FF160073B472 /* menu.json in Resources */,
 				F013CB822350FDA20073B472 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F013CBAC2350FF160073B472 /* Order.swift in Sources */,
 				F013CB7C2350FDA00073B472 /* AppDelegate.swift in Sources */,
 				F013CBB423576F7B0073B472 /* Order.swift in Sources */,
 				F013CB7E2350FDA00073B472 /* SceneDelegate.swift in Sources */,
+				F013CBAE235102120073B472 /* ItemRow.swift in Sources */,
 				F013CB802350FDA00073B472 /* ContentView.swift in Sources */,
 				F013CBB523576F7B0073B472 /* Menu.swift in Sources */,
 				F013CBB623576F7B0073B472 /* Helper.swift in Sources */,
