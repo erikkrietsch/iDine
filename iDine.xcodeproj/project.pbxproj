@@ -14,6 +14,11 @@
 		F013CB852350FDA20073B472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F013CB842350FDA20073B472 /* Preview Assets.xcassets */; };
 		F013CB882350FDA20073B472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F013CB862350FDA20073B472 /* LaunchScreen.storyboard */; };
 		F013CB932350FDA30073B472 /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CB922350FDA30073B472 /* iDineTests.swift */; };
+		F013CBAE235102120073B472 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CBAD235102120073B472 /* ItemRow.swift */; };
+		F013CBB323576F7B0073B472 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = F013CBAF23576F7A0073B472 /* menu.json */; };
+		F013CBB423576F7B0073B472 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CBB023576F7A0073B472 /* Order.swift */; };
+		F013CBB523576F7B0073B472 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CBB123576F7A0073B472 /* Menu.swift */; };
+		F013CBB623576F7B0073B472 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013CBB223576F7A0073B472 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		F013CB8E2350FDA30073B472 /* iDineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F013CB922350FDA30073B472 /* iDineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineTests.swift; sourceTree = "<group>"; };
 		F013CB942350FDA30073B472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F013CBAD235102120073B472 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		F013CBAF23576F7A0073B472 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		F013CBB023576F7A0073B472 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F013CBB123576F7A0073B472 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F013CBB223576F7A0073B472 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 				F013CB7B2350FDA00073B472 /* AppDelegate.swift */,
 				F013CB7D2350FDA00073B472 /* SceneDelegate.swift */,
 				F013CB7F2350FDA00073B472 /* ContentView.swift */,
+				F013CBAD235102120073B472 /* ItemRow.swift */,
+				F013CBB223576F7A0073B472 /* Helper.swift */,
+				F013CBB123576F7A0073B472 /* Menu.swift */,
+				F013CBAF23576F7A0073B472 /* menu.json */,
+				F013CBB023576F7A0073B472 /* Order.swift */,
 				F013CB812350FDA20073B472 /* Assets.xcassets */,
 				F013CB862350FDA20073B472 /* LaunchScreen.storyboard */,
 				F013CB892350FDA20073B472 /* Info.plist */,
@@ -188,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F013CBB323576F7B0073B472 /* menu.json in Resources */,
 				F013CB882350FDA20073B472 /* LaunchScreen.storyboard in Resources */,
 				F013CB852350FDA20073B472 /* Preview Assets.xcassets in Resources */,
 				F013CB822350FDA20073B472 /* Assets.xcassets in Resources */,
@@ -209,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F013CB7C2350FDA00073B472 /* AppDelegate.swift in Sources */,
+				F013CBB423576F7B0073B472 /* Order.swift in Sources */,
 				F013CB7E2350FDA00073B472 /* SceneDelegate.swift in Sources */,
 				F013CB802350FDA00073B472 /* ContentView.swift in Sources */,
+				F013CBB523576F7B0073B472 /* Menu.swift in Sources */,
+				F013CBB623576F7B0073B472 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
